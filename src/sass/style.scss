@@ -22,14 +22,14 @@ ul li{
   font-size: 18px;
   line-height: 25px;
 }
+table {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+}
 
 .header--color {
   background-color: $color-violet;
 
-}
-table {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 18px;
 }
 
 .h1--color {
@@ -71,25 +71,4 @@ table {
   background-color: $color-focus-violet;
   border-color: $border-color-violet;
 }
-//.btn--violet:active:hover,
-//.btn--violet.active:hover,
-//.open > .dropdown-toggle.btn--violet:hover,
-//.btn--violet:active:focus,
-//.btn--violet.active:focus,
-//.open > .dropdown-toggle.btn--violet:focus,
-//.btn--violet:active.focus,
-//.btn--violet.active.focus,
-//.open > .dropdown-toggle.btn--violet.focus {
-//  color: #fff;
-//  background-color: $color-focus-violet;
-//  border-color: $border-color-violet;
-//}
-//.btn--violet:active,
-//.btn--violet.active,
-//.open > .dropdown-toggle.btn--violet {
-//  background-image: none;
-//}
-
-
-//*//
 
