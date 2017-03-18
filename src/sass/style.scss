@@ -1,0 +1,95 @@
+
+$color-violet: #993b9f;
+$border-color-violet: #613267;
+$color-focus-violet: #993B9f;
+$color-white: #fff;
+$color-h2:#504d3c;
+
+h2 { color: $color-h2;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 0 0 24px; }
+
+p { font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  line-height: 25px; }
+
+ul li{
+  font-family: 'Source Sans Pro', sans-serif;
+  list-style:none;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.header--color {
+  background-color: $color-violet;
+
+}
+table {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+}
+
+.h1--color {
+  color: $color-white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.p__contact--margin{
+  margin-top: 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer--colors {
+  background-color: $color-violet;
+  color:$color-white;
+}
+
+
+.btn--violet {
+  color: #fff;
+  background-color: $color-violet;
+  border-color: $border-color-violet;
+}
+.btn--violet:focus,
+.btn--violet.focus {
+  color: #fff;
+  background-color: $color-focus-violet;
+  border-color: $border-color-violet;
+}
+.btn--violet:hover {
+  color: #fff;
+  background-color: $border-color-violet;
+  border-color:$border-color-violet;
+}
+.btn--violet:active,
+.btn--violet.active,
+.open > .dropdown-toggle.btn--violet {
+  color: #fff;
+  background-color: $color-focus-violet;
+  border-color: $border-color-violet;
+}
+//.btn--violet:active:hover,
+//.btn--violet.active:hover,
+//.open > .dropdown-toggle.btn--violet:hover,
+//.btn--violet:active:focus,
+//.btn--violet.active:focus,
+//.open > .dropdown-toggle.btn--violet:focus,
+//.btn--violet:active.focus,
+//.btn--violet.active.focus,
+//.open > .dropdown-toggle.btn--violet.focus {
+//  color: #fff;
+//  background-color: $color-focus-violet;
+//  border-color: $border-color-violet;
+//}
+//.btn--violet:active,
+//.btn--violet.active,
+//.open > .dropdown-toggle.btn--violet {
+//  background-image: none;
+//}
+
+
+//*//
+
